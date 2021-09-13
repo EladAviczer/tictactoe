@@ -1,0 +1,37 @@
+h1, h2{
+    text-align: center;
+}
+h2{
+    color: red;
+}
+table, td {
+    border: 1px solid black;
+    width: 400px;
+    height: 100px;
+    margin-right:auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 80px;
+}
+
+.reset{
+text-align: center;
+margin-right:auto;
+    margin-left: auto;
+    display: none;
+}
+
+.resetBtn{
+    border-radius: 50px;
+    width: 394px;
+    height: 316px;
+    background-color: rgba(245, 19, 19, 0.19);
+}
+.resetBtn:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.resetBtn:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
